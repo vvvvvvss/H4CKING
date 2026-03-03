@@ -2,3 +2,9 @@ CrackStation - for unhashing a password
 Have I Been Pwned -  to check for data breaches
 virustotal- to check if url or any link is legit
 zphisher - to ffind usernames and password
+NMAP - nmap scanme.nmap.org : for port scan
+nmap -sV scanme.nmap.org : for service scan
+ltrace - wget link
+ls
+chmod +x Break_me
+ltrace ./Break_me
